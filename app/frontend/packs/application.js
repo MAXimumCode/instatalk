@@ -7,6 +7,8 @@ import '../scripts/javascript.js'
 const images = require.context('../../frontend/images', true)
 const imagePath = (name) => images(name, true)
 
+import 'bootstrap/dist/js/bootstrap'
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()

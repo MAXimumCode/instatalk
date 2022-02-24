@@ -31,3 +31,10 @@
 
 en:
   hello: "Hello world"
+  rooms:
+    leave: "leave"
+    room: "Room"
+    create_room: "create room"
+    join: "join"
+  index:
+    rooms: "Rooms"
